@@ -7,9 +7,10 @@
 import streamlit as st
 import joblib
 import pandas as pd
+import pickle
 
-# Load the trained model
-model = joblib.load('logistic_regression_model.pkl')
+with open('logistic_regression_model.pkl', 'rb') as file:
+    model = pickle.load(file)
 
 # Define function to get user input
 def get_user_input():
