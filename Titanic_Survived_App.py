@@ -2,7 +2,14 @@
 # coding: utf-8
 
 # In[2]:
+import os
+import subprocess
 
+try:
+    import sklearn
+except ImportError:
+    subprocess.run(['pip', 'install', 'scikit-learn'])
+    import sklearn
 
 import streamlit as st
 import pandas as pd
