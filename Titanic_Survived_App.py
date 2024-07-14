@@ -7,7 +7,7 @@ import os
 import streamlit as st
 import pandas as pd
 import pickle
-
+import sklearn
 
 with open('logistic_regression_model.pkl', 'rb') as file:
     model = pickle.load(file)
