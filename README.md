@@ -34,3 +34,5 @@ The model was evaluated using classification metrics such as accuracy, precision
 
 Through a comprehensive analysis of the Titanic dataset, we developed a logistic regression model that effectively predicts passenger survival. By exploring the data, preprocessing it meticulously, performing feature selection, and tuning hyperparameters, we were able to enhance the model's accuracy and interpretability. The results underscore the significance of factors such as gender, class, and age in determining survival likelihood on the Titanic. This modeling approach not only provides valuable insights into the historical event but also serves as a robust framework for similar classification problems in future analyses. 
 This approach can be further enhanced by using advanced algorithms like Random Forest or XGBoost for better accuracy and feature importance analysis
+## Deployment using streamlit:
+https://titanic-cfovbphdtjrwfjapfufsaq.streamlit.app/
